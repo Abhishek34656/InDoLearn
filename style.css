@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.features, .testimonials, .faq, .signup {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.cta-button, .learn-more, button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.cta-button {
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.feature-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.testimonials, .faq {
+    margin-top: 30px;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4CAF50;
+    margin: 15px 0;
+    padding: 15px;
+    font-style: italic;
+}
+
+.faq-item {
+    margin: 15px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
