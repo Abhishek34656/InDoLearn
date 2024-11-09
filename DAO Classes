@@ -1,0 +1,9 @@
+public class UserDAO {
+    public void addUser(User user) {
+        // Code for inserting the user into the database
+    }
+    public User getUser(int id) {
+        // Code for retrieving user from the database
+    }
+    // Other CRUD operations
+}
